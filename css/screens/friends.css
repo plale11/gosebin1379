@@ -28,6 +28,12 @@
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
 }
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px; /* 기존 15px → 25px로 늘림 */
+}
 
 @keyframes hideSplashScreen {
   from {
